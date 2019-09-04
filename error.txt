@@ -1,0 +1,8 @@
+種類：<class 'json.decoder.JSONDecodeError'> 内容Expecting value: line 1 column 1 (char 0)
+種類：<class 'json.decoder.JSONDecodeError'> 内容Expecting value: line 1 column 1 (char 0)
+種類：<class 'json.decoder.JSONDecodeError'> 内容Expecting value: line 1 column 1 (char 0)
+種類：<class 'KeyError'> 内容'forecast'
+種類：<class 'NameError'> 内容name 'commad' is not defined
+種類：<class 'NameError'> 内容name 'commad' is not defined
+種類：<class 'NameError'> 内容name 'commad' is not defined
+種類：<class 'NameError'> 内容name 'command' is not defined
