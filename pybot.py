@@ -9,6 +9,8 @@ from reiwa_calculater import reiwa_calculater
 from showa_calculater import showa_calculater
 from pybot_weather import weather_command
 from pybot_wikipedia import wikipedia_command
+from statistics_data import heikin
+from statistics_data import chuo_ti
 
 
 open_file = open("teikei.txt", encoding="utf-8")
@@ -95,6 +97,12 @@ def bot(command):
                 response = weather_command()
             if "weather" in command:
                 response = weather_command()
+
+            if '平均値' in command:
+                response=heikin(command)
+
+            if '中央値' in command:
+                response=chuo_ti(command)
 
   
 
